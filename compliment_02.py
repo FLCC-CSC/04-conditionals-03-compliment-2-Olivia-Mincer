@@ -16,12 +16,15 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+users_choice = input("Would you like a compliment? ")
 
+if users_choice == "yes":
+    print("You have wonderful eyes.")
 
+else:
+    print("No compliment for you!")
 
-
-
-
+print("Thank you for playing.")
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
